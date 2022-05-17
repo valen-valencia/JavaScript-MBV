@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>calculadora</title>
+    <h1> CALCULADORA</H1>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+
+<body>
+
+    <script src="calculadora.js"></script>
+    <table width="10%" border="5" bordercolor="black" style="height:18em" align="center">
+
+        <tr>
+            <td colspan="4" align="center">
+                <input name="display" type="text" class="display" id="display" size="25%" disabled></td>
+        </tr>
+        <tr>
+            <td width="25%"><input name="signos" type="button" class="numero" id="signos" value="+" onclick="suma()"></td>
+            <td width="25%"><input name="signo1" type="button" class="numero" id="signo1" value="-" onclick="resta()"></td>
+            <td width="25%"><input name="signo2" type="button" class="numero" id="signo2" value="*" onclick="multiplicacion()"></td>
+            <td width="25%"><input name="signo3" type="button" class="numero" id="signo3" value="/" onclick="division()"></td>
+        </tr>
+
+        <tr>
+            <td><input name="nro7" type="button" class="numero" id="nro7" value="7" onclick="resultado(7)"></td>
+            <td><input name="nro8" type="button" class="numero" id="nro8" value="8" onclick="resultado(8)"></td>
+            <td><input name="nro9" type="button" class="numero" id="nro9" value="9" onclick="resultado(9)"></td>
+            <td><input name="signo" type="button" class="numero" id="signo" value="%" onclick="porcentaje()"></td>
+        </tr>
+        <tr>
+            <td><input name="nro4" type="button" class="numero" id="nro4" value="4" onclick="resultado(4)"></td>
+            <td><input name="nro5" type="button" class="numero" id="nro5" value="5" onclick="resultado(5)"></td>
+            <td><input name="nro6" type="button" class="numero" id="nro6" value="6" onclick="resultado(6)"></td>
+            <td><input name="oper1" type="button" class="numero" id="oper1" value="√" onclick="raizcua()"></td>
+        </tr>
+        <tr>
+            <td><input name="nro1" type="button" class="numero" id="nro1" value="1" onclick="resultado(1)"></td>
+            <td><input name="nro2" type="button" class="numero" id="nro2" value="2" onclick="resultado(2)"></td>
+            <td><input name="nro3" type="button" class="numero" id="nro3" value="3" onclick="resultado(3)"></td>
+            <td><input name="oper2" type="button" class="numero" id="oper2" value="CAT" onclick="borrauno()"></td>
+        </tr>
+        <tr>
+            <td><input name="nros1" type="button" class="numero" id="nros1" value="0" onclick="resultado(0)"></td>
+            <td><input name="nros2" type="button" class="numero" id="nros2" value="." onclick="punto()"></td>
+            <td><input name="nros3" type="button" class="numero" id="nros3" value="=" onclick="igual()"></td>
+            <td><input name="nros4" type="button" class="numero" id="nros4" value="C" onclick="borrar()"></td>
+
+        </tr>
+    </table>
+    <footer>
+        <H6>
+            VALENTINA VALENCIA </H6>
+        <H2>ADSI-2469285</H2>
+    </footer>
+
+</body>
+
+
+</html>
